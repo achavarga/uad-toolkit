@@ -25,4 +25,3 @@ CSV columns (case-insensitive): `Lambda (nm)`, `% Red`, `% Yellow`, `% Green`, `
 ## Reproducibility
 - Functions are pure and tested with a smoke test under `tests/`.
 - Example dataset and script are provided in `examples/` and `scripts/`.
-- Cite the APP 2009 paper where appropriate.
