@@ -3,6 +3,9 @@
 
 Open, reproducible toolkit for building the **Uniform Appearance Diagram (UAD)** from hue‑scaling data, following the workflow described in Abramov, Gordon, & Chan (2009, *Attention, Perception, & Psychophysics*).
 
+## Data Preparation
+The authors of this manuscript used a physical apparatus with monochromator to collect hue scaling data. The example presented in the demonstration CSV contains the average %R, %Y, %G, %B and %Saturation reported by a single participant over 4 trials of hue scaling of 24 total wavelengths (330-660 in 10nm steps).
+
 ## Install (editable)
 ```bash
 pip install -e .
