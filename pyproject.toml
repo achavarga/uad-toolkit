@@ -1,0 +1,17 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uadtoolkit"
+version = "0.1.0"
+description = "Uniform Appearance Diagram (UAD) open toolkit for hue-scaling data (APP 2009-style)"
+authors = [{name = "Your Lab", email = "contact@example.org"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[project.scripts]
+uad = "uadtoolkit.cli:main"
